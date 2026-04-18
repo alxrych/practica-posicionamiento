@@ -1,8 +1,19 @@
  /* Estilos básicos para visualizar las secciones */
+
+ /* Elimina márgenes y rellenos de TODOS los elementos */
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     /* Evita que bordes y paddings añadan espacio extra */
+ }
+
  body {
+     margin: 0;
      font-family: Arial, sans-serif;
      line-height: 1.6;
-     padding: 20px;
+     padding: 0;
+     width: 100%;
  }
 
  header {
@@ -59,7 +70,6 @@
      border-radius: 5px;
  }
 
- /* FALTA DEFINIR EL ESTILO DE FOOTER PARA QUE CUMPLA EL ENUNCIADO */
  footer {
      background: #2c3e50;
      position: sticky;
